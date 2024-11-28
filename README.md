@@ -17,3 +17,5 @@
    ```bash
    git clone https://github.com/mrnfqrbl/pixiv-down-img.git
    cd pixiv-down-img
+   
+   python main.py
