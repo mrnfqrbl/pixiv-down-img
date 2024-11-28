@@ -1,6 +1,6 @@
 # pixiv-down-img
 
-一个用于批量下载 Pixiv 图片的工具。可以通过指定用户或作品来下载，支持以下功能：
+一个windows环境用于批量下载 Pixiv 图片的工具。可以通过指定用户或作品来下载，支持以下功能：
 
 - **批量下载多个用户的作品**：通过用户 ID 列表快速获取指定用户的所有公开作品。
 - **批量下载多个作品**：通过作品 ID 列表快速下载指定的单个或多个作品。
@@ -14,8 +14,8 @@
 ## 使用方法
 
 1. 克隆项目到本地：
-   ```bash
+   ```cmd
    git clone https://github.com/mrnfqrbl/pixiv-down-img.git
    cd pixiv-down-img
-   
+   pip install -r requirements.txt 
    python main.py
