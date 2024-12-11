@@ -1,7 +1,7 @@
 import os
 import json
 import re
-import requests
+import rate_limited_requests as requests
 from pathlib import Path
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry

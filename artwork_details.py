@@ -1,4 +1,4 @@
-import requests
+import rate_limited_requests as requests
 from log_config import logger
 from handle_429 import handle_429_error
 
